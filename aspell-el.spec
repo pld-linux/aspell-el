@@ -1,5 +1,5 @@
 Summary:	Greek dictionary for aspell
-Summary(pl):	Grecki s這wnik dla aspella
+Summary(pl):	S這wnik grecki dla aspella
 Name:		aspell-el
 Version:	0.50
 %define	subv	3
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Greek dictionary (i.e. word list) for aspell.
 
 %description -l pl
-Grecki s這wnik (lista s堯w) dla aspella.
+S這wnik (lista s堯w) grecki dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
