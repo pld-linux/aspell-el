@@ -3,7 +3,7 @@ Summary(pl):	S³ownik grecki dla aspella
 Name:		aspell-el
 Version:	0.50
 %define	subv	3
-Release:	3
+Release:	4
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
