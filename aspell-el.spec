@@ -8,6 +8,7 @@ Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/el/%{name}-%{version}-%{subv}.tar.bz2
+# Source0-md5:	0ea2c42ceb9b91f7f5de2c017234ad37
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
