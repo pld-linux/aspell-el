@@ -1,5 +1,5 @@
 Summary:	Greek dictionary for aspell
-Summary(pl.UTF-8):   Grecki słownik dla aspella
+Summary(pl.UTF-8):	Grecki słownik dla aspella
 Name:		aspell-el
 Version:	0.50
 %define	subv	3
