@@ -12,6 +12,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/el/aspell6-el-%{version}-%{subv}.tar
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60.0
 Requires:	aspell >= 3:0.60.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -43,9 +44,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README*
-%{_libdir}/aspell/el.multi
-%{_libdir}/aspell/el.rws
-%{_libdir}/aspell/gr.alias
-%{_libdir}/aspell/greek.alias
+%{_prefix}/lib/aspell/el.multi
+%{_prefix}/lib/aspell/el.rws
+%{_prefix}/lib/aspell/gr.alias
+%{_prefix}/lib/aspell/greek.alias
 %{_datadir}/aspell/el*.dat
 %{_datadir}/aspell/el.kbd
